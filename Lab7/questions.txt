@@ -1,0 +1,10 @@
+Report questions
+
+1. there are numInputs of threads * each thread has lg(blockInputs). Thus there are numInputs*lg(blockSize) floating 
+point opr's.
+
+2. accessing and reading numInputs number of global memory reads.
+
+3. there are numInputs / blockSize writes.
+
+4. a single thread block syncs lg(blockSize) to reduce.
