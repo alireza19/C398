@@ -1,0 +1,21 @@
+﻿Build started 3/4/2019 10:13:20 PM.
+     1>Project "F:\Lab6\Lab6\Convolution\Convolution.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Lab6\Lab6\Submission\Convolution.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" wb.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Lab6\Lab6\Submission\Convolution.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Lab6\Lab6\Submission\Convolution.lib" /MACHINE:X64 Submission\kernel.cu.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Convolution.vcxproj -> F:\Lab6\Lab6\Submission\Convolution.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64*.dll" "F:\Lab6\Lab6\Submission\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64*.dll" "F:\Lab6\Lab6\Submission\"
+         copy F:\Lab6\Lab6\Convolution\kernel.cu F:\Lab6\Lab6\Submission\Convolution.cu
+         DEL F:\Lab6\Lab6\Submission\*.pdb
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64*.dll" "F:\Lab6\Lab6\Submission\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+                 1 file(s) copied.
+                 1 file(s) copied.
+     1>Done Building Project "F:\Lab6\Lab6\Convolution\Convolution.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.37
